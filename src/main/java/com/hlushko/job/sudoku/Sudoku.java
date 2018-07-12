@@ -22,7 +22,7 @@ public class Sudoku
 	if (args != null && args.length >0) {
 		new Sudoku(args[0]).solve();
 	} else {
-		System.out.println("Please provide full path to Sudoku solution file as an argument:\njava -cp Sudoku-1.0-SNAPSHOT.jar com.hlushko.job.sudoku.Sudoku /app/sudoku/<FILE_NAME>");
+		System.out.println("Please provide full path to Sudoku solution file as an argument:\njava -cp Sudoku-1.0-SNAPSHOT.jar com.hlushko.job.sudoku.Sudoku <FILE_NAME>");
 	}
     }
     
